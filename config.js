@@ -56,15 +56,15 @@
 module.exports = {
 	'theme': "darkly"
 	,'stylesheet': ""
-	,'title': "Digitalcoin (DGC) Faucet - Get free Digitalcoin every 12 hours!"
-	,'brand': "Digitalcoin Faucet"
-	,'copyright': '<a href="http://dgcfoundation.com">DGC Foundation</a>'
-	,'coin': "Digitalcoin"
-	,'symbol': "DGC"
+	,'title': "Dicecoin (DICE) Faucet - Get free Dicecoin every 12 hours!"
+	,'brand': "Dicecoin Faucet"
+	,'copyright': '<a href="https://dicecoin.net">DICE Developers</a>'
+	,'coin': "Dicecoin"
+	,'symbol': "DICE"
 	,'pages':{
 		'home':{
-			'h1':"Digitalcoin (DGC) Faucet"
-			,'faucet_text':'This faucet automatically pays out Digitalcoin on a schedule. Enter your Digitalcoin address below to receive free DGC. <a href="https://mywl.lt">Need a wallet?</a>'
+			'h1':"Dicecoin (DICE) Faucet"
+			,'faucet_text':'This faucet automatically pays out Dicecoin on a schedule. Enter your Dicecoin address below to receive free DICE. <a href="https://dicecoin.net">Need a wallet?</a>'
 			,'payout_header':'Payout Chances'
 		}
 	}
@@ -73,8 +73,8 @@ module.exports = {
 	,'show_wallet_balance': false
 	,'rpc':{
 		'host':"localhost"
-		,'port':4839
-		,'user':"_username_"
+		,'port':7347
+		,'user':"dicecoinrpc"
 		,'pass':"_password_"
 		,'timeout':30000
 		,'ssl':false
